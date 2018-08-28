@@ -1,0 +1,78 @@
+body{
+  overflow-x: hidden;
+}
+#designer{
+  background: url("img/designer.jpeg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  transition: 700ms all ease-in-out;
+  
+}
+#programmer{
+  background: url("img/Programmer.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  transition: 700ms all ease-in-out;
+  
+}
+.overlaydesig{
+  background:red;
+  min-height: 700px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+.overlayprog{
+  background:#000;
+  min-height: 700px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+#link{
+  transform: translateX(-50%);
+  position: absolute;
+  top: 50%;
+  
+}
+#link2{
+  transform: translateX(-50%);
+  position: absolute;
+  top: 50%;
+}
+#h1prog{
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  color: #fff;
+}
+#h1desig{
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  color:#fff;
+}
+.linkdesigin{
+  margin-top: 40%;
+  
+
+}
+.linkprog{
+
+}
+
